@@ -44,7 +44,7 @@ This vault is a collection of markdown files organized to support development, d
       <strong>📺 Watch an Obsidian GIT Tutorial</strong>
     </td>
     <td>
-      <a href="https://www.youtube.com/watch?v=ImrLbomFYA0" target="_blank">
+      <a href="https://www.youtube.com/watch?v=ImrLbomFYA0">
         <img src="https://img.youtube.com/vi/ImrLbomFYA0/0.jpg" width="300" />
       </a>
     </td>
