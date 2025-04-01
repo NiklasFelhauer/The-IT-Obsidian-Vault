@@ -4,7 +4,7 @@ Welcome! Use this dynamic index to explore your vault. All content is grouped by
 
 ```dataview
 TABLE GIT_USERNAME, GIT_TOKEN
-WHERE file.name = "credentials"
+WHERE file.name = "credentials.local"
 ```
 ---
 
