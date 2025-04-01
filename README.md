@@ -37,7 +37,18 @@ This vault is a collection of markdown files organized to support development, d
 2. **Write Notes** using markdown. Use headers and tags for better organization.
 3. **Use `dataview` queries** to extract and present structured information.
 4. **Commit changes via `obsidian-git`** to preserve version history.
-	--> https://www.youtube.com/watch?v=ImrLbomFYA0
+
+<div style="display: flex; align-items: center; gap: 40px;">
+  <div>
+    📺 Watch an Obsidian GIT Tutorial
+  </div>
+  <div>
+    <a href="https://www.youtube.com/watch?v=ImrLbomFYA0" >
+      <img src="https://img.youtube.com/vi/ImrLbomFYA0/0.jpg" width="200" />
+    </a>
+  </div>
+</div>
+
 ### Example Dataview Query
 
 ```dataview
