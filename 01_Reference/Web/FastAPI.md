@@ -1,3 +1,4 @@
+index
 ## Running a FastAPI Application with Uvicorn
 
 ### Run the Application
