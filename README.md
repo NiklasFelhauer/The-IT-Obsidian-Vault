@@ -2,6 +2,7 @@
 
 This repository represents a structured knowledge base managed with [Obsidian](https://obsidian.md/) for the iPID Project at Siemens and other IT related tasks in general. It utilizes both core and community plugins to enhance productivity, note organization, and knowledge retrieval.
 
+📥 **[View the Installation Guide](INSTALLATION.md)**  
 ## Overview
 
 This vault is a collection of markdown files organized to support development, documentation, and operational processes within the iPID project. It includes structured sections such as:
