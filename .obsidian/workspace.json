@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Secret/credentials.local.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "credentials.local"
+              "title": "README"
             }
           }
         ]
@@ -169,11 +169,11 @@
   },
   "active": "608c283f76b31e32",
   "lastOpenFiles": [
-    "00_Secret/credentials.placeholder.md",
-    "00_Secret/credentials.local.md",
-    "Index.md",
-    "01_Reference/Git/Git Commands.md",
     "INSTALLATION.md",
+    "Index.md",
+    "00_Secret/credentials.local.md",
+    "00_Secret/credentials.placeholder.md",
+    "01_Reference/Git/Git Commands.md",
     "README.md",
     "LICENSE",
     "04_Workflows/Workflow.md",

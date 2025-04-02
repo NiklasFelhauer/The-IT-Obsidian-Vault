@@ -16,6 +16,7 @@ This vault is a collection of markdown files organized to support development, d
 ---
 - **Index**  – Entry point for the vault
 - **README**  – README
+- **INSTALLATION**  – Installation Guide
 ---
 ## Key Features
 
