@@ -41,6 +41,6 @@ After the cloning process is complete:
 - Reopen the vault in Obsidian to ensure that all additional community plugins and settings from the repository are properly recoagnized and loaded.
 
 
-
+ee
 ---
 
