@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "a104bfc5ffbabf23",
+    "id": "af21e0da053524bf",
     "type": "split",
     "children": [
       {
-        "id": "a061dc99699e64c1",
+        "id": "cd46f2d020184213",
         "type": "tabs",
         "children": [
           {
-            "id": "bdca1aed4129ce6c",
+            "id": "21658d52ae52cc4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,36 +22,20 @@
             }
           }
         ]
-      },
-      {
-        "id": "c3203a70bf212808",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fae2c1e5f4d67e0f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "431c3e053620b74a",
+    "id": "902638c8a4213aff",
     "type": "split",
     "children": [
       {
-        "id": "851ae8895a19595f",
+        "id": "1465251c42e4e41c",
         "type": "tabs",
         "children": [
           {
-            "id": "b829a5e78f45f405",
+            "id": "55d8802daf5ec32d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,7 +48,7 @@
             }
           },
           {
-            "id": "8f562ce6c9de4792",
+            "id": "88e91c66c928fb53",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -81,7 +65,7 @@
             }
           },
           {
-            "id": "3f06a85c8bef76e9",
+            "id": "435c02d6ff8ab67e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -97,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "310b281ce2951105",
+    "id": "4f0b589045c471ee",
     "type": "split",
     "children": [
       {
-        "id": "a61925b68ed23428",
+        "id": "e2366bfaf08f1cc2",
         "type": "tabs",
         "children": [
           {
-            "id": "eff11d89858e1149",
+            "id": "ecba1a55adbcc2ad",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "918bac62b0e0c1f1",
+            "id": "a10e9657afed9c86",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "6eee98a607886784",
+            "id": "147b570fa50480bc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -153,7 +135,7 @@
             }
           },
           {
-            "id": "9fb016ecf0514918",
+            "id": "405a81ad75d5fc01",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -185,24 +167,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bdca1aed4129ce6c",
+  "active": "21658d52ae52cc4a",
   "lastOpenFiles": [
     "README.md",
-    "LICENSE",
-    "Index.md",
+    "02_Promts/General.md",
     "INSTALLATION.md",
+    "Index.md",
+    "03_Projects/Sprint-Current/temporary_daily.md",
+    "LICENSE",
     "04_Workflows/Workflow.md",
     "04_Workflows",
     "03_Projects/Sprint-Current/temproary_test.md",
     "03_Projects/Sprint-Current/temporary_task.md",
     "03_Projects/Sprint-Current/temporary_sprint_summary.md",
-    "03_Projects/Sprint-Current/temporary_daily.md",
     "03_Projects/Sprint-Current",
     "03_Projects",
     "02_Promts/Construction Kit/Writing Tests.md",
     "02_Promts/Construction Kit/Sprint Summary.md",
     "02_Promts/Learning.md",
-    "02_Promts/General.md",
     "02_Promts/Dev.md",
     "02_Promts/Construction Kit",
     "02_Promts",
