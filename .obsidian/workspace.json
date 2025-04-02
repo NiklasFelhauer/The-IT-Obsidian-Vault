@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "38d805d23fc23817",
+    "id": "cb3e73924db01986",
     "type": "split",
     "children": [
       {
-        "id": "7ae868c007eed73f",
+        "id": "860f833c04a83e79",
         "type": "tabs",
         "children": [
           {
-            "id": "98c0c1aeda8e2a4a",
+            "id": "acf91ed8c752c3d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "INSTALLATION.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4caf24faab14d663",
+    "id": "d9b4e903026826b1",
     "type": "split",
     "children": [
       {
-        "id": "d611dafbbfbdf35d",
+        "id": "0e2a35619c94a0d1",
         "type": "tabs",
         "children": [
           {
-            "id": "b95b4547c4097264",
+            "id": "ab57fd2ae43376a2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "d3b53fa978487ebe",
+            "id": "70ff89fb1f9d4eec",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "686aa93c36cc6259",
+            "id": "9d7f0483858c8f0c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,15 +81,15 @@
     "width": 300
   },
   "right": {
-    "id": "147ceffeff04d4e2",
+    "id": "73cac0073fc039dd",
     "type": "split",
     "children": [
       {
-        "id": "c491ce6eaf67e970",
+        "id": "f2c2c25f27936029",
         "type": "tabs",
         "children": [
           {
-            "id": "bbe84fd7b801499f",
+            "id": "48334069abd50e8e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -107,7 +107,7 @@
             }
           },
           {
-            "id": "8c9f30b8f4332705",
+            "id": "0c06e533ee05378c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -120,7 +120,7 @@
             }
           },
           {
-            "id": "209a42a50ab755cd",
+            "id": "46b6dcde12cc4937",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +135,7 @@
             }
           },
           {
-            "id": "e3dbe4eefa9af0b5",
+            "id": "6c6ccb657f8bec48",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -157,21 +157,52 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98c0c1aeda8e2a4a",
+  "active": "acf91ed8c752c3d3",
   "lastOpenFiles": [
     "README.md",
     "INSTALLATION.md",
+    "01_Reference/Web/Agular.md",
     "Index.md",
+    "LICENSE",
+    "04_Workflows/Workflow.md",
+    "04_Workflows",
+    "03_Projects/Sprint-Current/temproary_test.md",
+    "03_Projects/Sprint-Current/temporary_task.md",
+    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
+    "03_Projects/Sprint-Current/temporary_daily.md",
+    "03_Projects/Sprint-Current",
+    "03_Projects",
+    "02_Promts/Construction Kit/Writing Tests.md",
+    "02_Promts/Construction Kit/Sprint Summary.md",
+    "02_Promts/Learning.md",
+    "02_Promts/General.md",
+    "02_Promts/Dev.md",
+    "02_Promts/Construction Kit",
+    "02_Promts",
     "01_Reference/Web/FastAPI.md",
-    "Welcome.md"
+    "01_Reference/Git/Git Commit Messages.md",
+    "01_Reference/Git/Git Commands.md",
+    "01_Reference/Python/Virtual Environment.md",
+    "01_Reference/Python/Poetry.md",
+    "01_Reference/Python/Isort.md",
+    "01_Reference/Python/Black.md",
+    "01_Reference/DevOps/Powershell.md",
+    "01_Reference/DevOps/Kubernetes.md",
+    "01_Reference/DevOps/Docker.md",
+    "01_Reference/DevOps/Celery.md",
+    "01_Reference/Web",
+    "01_Reference/Git",
+    "01_Reference/Python",
+    "01_Reference/DevOps",
+    "00_Secret/credentials.placeholder.md"
   ]
 }

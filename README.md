@@ -1,4 +1,4 @@
-# Obsidian Vault
+# The-IT-Obsidian-Vault
 
 This repository represents a structured knowledge base managed with [Obsidian](https://obsidian.md/) for the iPID Project at Siemens and other IT related tasks in general. It utilizes both core and community plugins to enhance productivity, note organization, and knowledge retrieval.
 
