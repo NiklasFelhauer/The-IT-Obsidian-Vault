@@ -38,8 +38,8 @@ You can clone the repository directly from within Obsidian using the Git Communi
 
 After the cloning process is complete:
 
-- Reopen the vault in Obsidian to ensure that all additional community plugins and settings from the repository are properly recognized and loaded.
+- Reopen the vault in Obsidian to ensure that all additional community plugins and settings from the repository are properly recoagnized and loaded.
 
-Test
+Tes
 ---
 
