@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "aef71a6333fc49da",
+    "id": "f02ddb9a43f3657f",
     "type": "split",
     "children": [
       {
-        "id": "c7422bd1ea61d451",
+        "id": "abf3479d53fdd159",
         "type": "tabs",
         "children": [
           {
-            "id": "ba9baab49b945b42",
+            "id": "608c283f76b31e32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "README"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "40af6840ce6a344b",
+    "id": "0ee01fdfac99286d",
     "type": "split",
     "children": [
       {
-        "id": "610f1ae3453699b0",
+        "id": "4c0e0954dfaa84c5",
         "type": "tabs",
         "children": [
           {
-            "id": "6951433e2de84806",
+            "id": "c1e154b2cfe2e7a5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "bb47c5dce8e2340a",
+            "id": "18a852e7622e5a0b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "6303d9da54dad311",
+            "id": "dab8e16083a08aa6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "2d4cfb9044fd62d7",
+    "id": "094504b879f2c55e",
     "type": "split",
     "children": [
       {
-        "id": "1572820bd6294e0c",
+        "id": "761b84dca5724f18",
         "type": "tabs",
         "children": [
           {
-            "id": "ff4ed3f58a34744f",
+            "id": "588eb791aaa5efe9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Index"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "b062f33f15af1517",
+            "id": "7c8e12cdf56f3e1e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Index"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "de5cffed270733a2",
+            "id": "7c461b6d8d66dbd5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,26 +135,36 @@
             }
           },
           {
-            "id": "bc3d9447471e26ed",
+            "id": "c319f184b660d7f3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md",
+                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "243d89177d37ed64",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,43 +177,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba9baab49b945b42",
+  "active": "608c283f76b31e32",
   "lastOpenFiles": [
+    "INSTALLATION.md",
+    "Index.md",
+    "README.md",
     "00_Secret/credentials.local.md",
     "00_Secret/credentials.placeholder.md",
-    "Index.md",
-    "INSTALLATION.md",
-    "README.md",
+    "01_Reference/Git/Git Commands.md",
     "LICENSE",
     "04_Workflows/Workflow.md",
     "04_Workflows",
-    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
     "03_Projects/Sprint-Current/temproary_test.md",
     "03_Projects/Sprint-Current/temporary_task.md",
+    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
     "03_Projects/Sprint-Current/temporary_daily.md",
     "03_Projects/Sprint-Current",
     "03_Projects",
     "02_Promts/Construction Kit/Writing Tests.md",
     "02_Promts/Construction Kit/Sprint Summary.md",
-    "02_Promts/General.md",
     "02_Promts/Learning.md",
+    "02_Promts/General.md",
     "02_Promts/Dev.md",
     "02_Promts/Construction Kit",
     "02_Promts",
-    "01_Reference/Git/Git Commit Messages.md",
-    "01_Reference/Git/Git Commands.md",
-    "01_Reference/Web/Agular.md",
     "01_Reference/Web/FastAPI.md",
+    "01_Reference/Web/Agular.md",
     "01_Reference/Python/Virtual Environment.md",
     "01_Reference/Python/Poetry.md",
-    "01_Reference/Python/Black.md",
-    "01_Reference/DevOps/Powershell.md",
     "01_Reference/Python/Isort.md",
+    "01_Reference/Python/Black.md",
+    "01_Reference/Git/Git Commit Messages.md",
+    "01_Reference/DevOps/Powershell.md",
     "01_Reference/DevOps/Kubernetes.md",
     "01_Reference/DevOps/Docker.md",
-    "01_Reference/Git",
     "01_Reference/Web",
     "01_Reference/Python",
+    "01_Reference/Git",
     "01_Reference/DevOps"
   ]
 }
