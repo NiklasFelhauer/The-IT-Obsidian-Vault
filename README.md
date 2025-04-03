@@ -52,6 +52,7 @@ This vault is a collection of markdown files organized to support development, d
     </td>
   </tr>
 </table>
+
 ## License
 
 Refer to the `LICENSE` file in the root directory.
