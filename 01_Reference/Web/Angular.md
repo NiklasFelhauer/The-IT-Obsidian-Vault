@@ -95,3 +95,35 @@
     ```shell
     ng e2e
     ```
+    
+
+## Debugging in Chrome DevTools
+
+Here are a few useful commands for live Angular debugging in Chrome:
+
+1. **Inspect a component instance from the DOM**
+    
+    ```js
+    ng.getComponent($0)
+    ```
+    
+    Select an Angular component in the Elements tab, then run this to get its instance and inspect properties like `tableColumns`, `rowData`, etc.
+    
+2. **Check a property value**
+    
+    ```js
+    ng.getComponent($0).tableColumns
+    ```
+    
+    Directly view or debug any public variable on the selected component.
+    
+3. **Log row data from a component**
+    
+    ```ts
+    console.table(this.tableRows)
+    ```
+    
+    Add this inside your component to print your row data in a nice tabular format in the console.
+    
+
+> 💡 Tip: Use browser breakpoints and `debugger` statements inside methods to pause and inspect live code.
