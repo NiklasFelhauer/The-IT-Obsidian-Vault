@@ -53,35 +53,6 @@ This vault is a collection of markdown files organized to support development, d
   </tr>
 </table>
 
-### Example Dataview Query
-
-```dataview
-table file.ctime as Created
-from "01_Reference"
-where contains(file.name, "Docker")
-```
-
-## Setup Tips
-
-- Set default view mode to `preview` for readability.
-- Appearance theme is `obsidian` (default).
-- Custom hotkey: `Alt + C` toggles source view.
-
-## Recommended Workflow
-
-1. Use daily notes for capturing logs and thoughts.
-2. Organize references into topic-based subfolders.
-3. Tag notes consistently for graph visualization.
-4. Commit updates frequently to avoid data loss.
-
-## File Structure Summary
-
-The `.obsidian` folder includes settings for:
-
-- Plugin configurations (`community-plugins.json`, `core-plugins.json`)
-- UI preferences and layout (`workspace.json`, `graph.json`)
-- Dataview and plugin-specific data (`plugins/dataview/data.json`)
-
 ## License
 
 Refer to the `LICENSE` file in the root directory.
