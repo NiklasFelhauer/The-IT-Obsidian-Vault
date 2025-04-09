@@ -125,5 +125,19 @@ Here are a few useful commands for live Angular debugging in Chrome:
     
     Add this inside your component to print your row data in a nice tabular format in the console.
     
+4. **Log row data from a component**
+    
+    ```ts
+  ngOnChanges() {
+
+	console.log('🧪 rowData:', this.rowData);
+
+	console.log('🧪 tableColumns:', this.tableColumns);
+
+	console.log('🧪 columnDefs:', this.columnDefs);
+	
+	console.log('🧪 symbolClassification:', this.symbolClassification);}
+    ```
+
 
 > 💡 Tip: Use browser breakpoints and `debugger` statements inside methods to pause and inspect live code.

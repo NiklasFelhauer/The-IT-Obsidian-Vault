@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Projects/Sprint-Current/temporary_task.md",
+                "file": "01_Reference/Web/Angular.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "temporary_task"
+              "title": "Angular"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index.md",
+                "file": "01_Reference/Web/Angular.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Index"
+              "title": "Outgoing links from Angular"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md",
+                "file": "01_Reference/Web/Angular.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline of Angular"
             }
           },
           {
@@ -162,11 +162,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +182,11 @@
   },
   "active": "ba9baab49b945b42",
   "lastOpenFiles": [
+    "02_Promts/Dev.md",
+    "03_Projects/Sprint-Current/temporary_task.md",
     "01_Reference/Web/Angular.md",
     "conflict-files-obsidian-git.md",
     "01_Reference/DevOps/Docker.md",
-    "03_Projects/Sprint-Current/temporary_task.md",
-    "02_Promts/Dev.md",
     "01_Reference/Git/Git Commands.md",
     "README.md",
     "01_Reference/DevOps/Kubernetes.md",
