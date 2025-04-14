@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Reference/DevOps/Node_Tools.md",
+                "file": "01_Reference/DevOps/IntelliJ.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Node_Tools"
+              "title": "IntelliJ"
             }
           }
         ]
@@ -182,8 +182,9 @@
   },
   "active": "ba9baab49b945b42",
   "lastOpenFiles": [
-    "01_Reference/DevOps/Powershell.md",
     "01_Reference/DevOps/Node_Tools.md",
+    "01_Reference/DevOps/IntelliJ.md",
+    "01_Reference/DevOps/Powershell.md",
     "01_Reference/DevOps/Kubernetes.md",
     "02_Promts/Dev.md",
     "01_Reference/DevOps/Textdokument (neu).txt",
@@ -214,7 +215,6 @@
     "01_Reference/Git/Git Commit Messages.md",
     "01_Reference/Web/FastAPI.md",
     "01_Reference/Python/Virtual Environment.md",
-    "01_Reference/Python/Poetry.md",
     "01_Reference/Git",
     "01_Reference/Web",
     "01_Reference/Python"
