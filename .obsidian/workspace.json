@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Reference/DevOps/IntelliJ.md",
+                "file": "01_Reference/DevOps/Kubernetes.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IntelliJ"
+              "title": "Kubernetes"
             }
           }
         ]
@@ -182,17 +182,19 @@
   },
   "active": "ba9baab49b945b42",
   "lastOpenFiles": [
-    "01_Reference/DevOps/Node_Tools.md",
+    "01_Reference/DevOps/Docker.md",
     "01_Reference/DevOps/IntelliJ.md",
+    "01_Reference/DevOps/Celery.md",
+    "01_Reference/Python/Black.md",
     "01_Reference/DevOps/Powershell.md",
+    "01_Reference/Git/Git Commands.md",
+    "01_Reference/DevOps/Node_Tools.md",
     "01_Reference/DevOps/Kubernetes.md",
     "02_Promts/Dev.md",
     "01_Reference/DevOps/Textdokument (neu).txt",
     "03_Projects/Sprint-Current/temporary_task.md",
     "01_Reference/Web/Angular.md",
     "conflict-files-obsidian-git.md",
-    "01_Reference/DevOps/Docker.md",
-    "01_Reference/Git/Git Commands.md",
     "README.md",
     "Index.md",
     "00_Secret/credentials.local.md",
@@ -213,8 +215,6 @@
     "02_Promts/Construction Kit",
     "02_Promts",
     "01_Reference/Git/Git Commit Messages.md",
-    "01_Reference/Web/FastAPI.md",
-    "01_Reference/Python/Virtual Environment.md",
     "01_Reference/Git",
     "01_Reference/Web",
     "01_Reference/Python"

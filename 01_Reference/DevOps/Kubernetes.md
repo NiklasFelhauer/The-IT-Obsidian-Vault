@@ -134,3 +134,14 @@
    ```shell
    kubectl config current-context
    ```
+
+## IPID
+
+1. See the Pods:
+   ```shell
+   kubectl get pods -n ipid
+   ```
+2. Restart all the Pods:
+   ```shell
+   kubectl delete pods --all -n ipid
+   ```
