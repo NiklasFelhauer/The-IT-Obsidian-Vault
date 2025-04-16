@@ -63,5 +63,19 @@ Be Sure to provide the output you in a **Markdown (.md) file** so I can download
    ```
 
 ```Text
+I am working within my Obsidian Vault and would like your assistance in generating a new Markdown (`.md`) file. This file should integrate seamlessly into the Vault, aligning with its organizational structure, tagging conventions, and stylistic formatting.
+
+**Objective:**  
+Please create a new Markdown document tailored to the following topic. The content should be well-structured, clearly written, and formatted according to Markdown best practices. It should reflect the tone and layout typically used within Obsidian Vaults, ensuring smooth integration without requiring additional adjustments.
+
+The goal is to make this note instantly usable and consistent with the rest of the content in my Obsidian environment.
+
+**Topic:**  
+_(Please base the new Markdown file on the following topic)_
+
+Topic: 
+   ```
+   
+```Text
 r.jina.ai/
 ```
