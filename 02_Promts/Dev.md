@@ -61,3 +61,7 @@ The idea is to have a structured and well-organized Markdown file where I can ea
 
 Be Sure to provide the output you in a **Markdown (.md) file** so I can download it directly from here. Thank you!!!
    ```
+
+```Text
+r.jina.ai/
+```
