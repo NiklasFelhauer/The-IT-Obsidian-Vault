@@ -1,58 +1,23 @@
-## Refined Chatbot Prompt
+# Task Description for ChatGPT
 
-### Context
+## Overview
 
-Hello ChatGPT,
+Hello ChatGPT,  
+Today marks a new beginning, and I'm reaching out with a task that has been persistently troubling me. I would greatly appreciate your assistance in resolving it.
 
-A fresh day, a fresh start! I'm currently working on an Angular application and would like your assistance in refining and aligning the row selection behavior of my new grid component with that of the legacy implementation.
+## Problem Statement
 
-I’ve appended my Angular code to a component named `codeui`, and I’d like you to review it for context.
+Whenever I add a new row to the data structure in my application, the canvas displaying the P&ID (Piping and Instrumentation Diagram) image automatically shifts its focus to the top-left corner of the image.
 
-### Objective
+### Current Behavior:
+- Adding a new row causes the view to jump to the top-left corner of the P&ID canvas.
 
-The primary goal is to ensure that the following function:
+### Expected Behavior:
+- The current view and focus area of the P&ID canvas should remain unchanged when a new row is added. In other words, the canvas should not scroll or move; it should preserve its current zoom and scroll position.
 
-```ts
-onRowSelected(event: RowSelectedEvent): void {
-  console.log('RowSelected:', event);
-}
-```
+## Request
 
-—which is triggered by the new grid's row selection event—effectively replicates the behavior of the following legacy method:
+Please review the code I have appended and help me resolve this issue. The goal is to maintain the canvas's visual state (i.e., position and zoom level) when new data rows are introduced.
 
-```ts
-onRowSelect(row: any): void {
-  if (this.selectedRow !== row && !this.controls.tableSelectMode) {
-    this.selectedDocPDFViewer = '';
-    this.selectedRow = row;
+Thank you in advance for your support!
 
-    // Ensure only one row is selected at a time
-    this.tableRows.forEach(row => row.selected = false);
-
-    this.loadCanvasImage(this.selectedRow);
-
-    /* Reset the selected cell if only a row is selected 
-       and not a specific cell within the row */
-    if (this.selectedRow && !Object.values(this.selectedRow).includes(this.selectedCell)) {
-      this.selectedCell = null;
-    }
-  }
-}
-```
-
-This `onRowSelect` method is defined in the canvas component TypeScript file.
-
-### Request
-
-Please assist me in achieving the following:
-
-1. Adapt the new grid’s `onRowSelected` function so that it invokes the behavior encapsulated in `onRowSelect`.
-    
-2. Ensure that selecting a row behaves identically to the legacy implementation, including image loading and single-row selection enforcement.
-    
-3. Guide me through the necessary steps to accomplish this, in a clear and structured manner.
-    
-
-Please proceed step by step.
-
-Thank you!

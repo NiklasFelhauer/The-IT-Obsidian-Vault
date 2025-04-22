@@ -3,15 +3,6 @@
 
 I am preparing for a Sprint Review today, where I need to present an overview of my work to the team. To ensure a structured and professional presentation, I require a concise yet comprehensive summary of my journal entries from the relevant sprint.
 
-## Context
-
-- **Sprint Number:** Sprint 6
-    
-- **Corresponding Calendar Weeks:** 8, 9, and 10
-    
-- **Journal Structure:** My daily journal entries are organized based on calendar weeks and sprint numbers.
-    
-
 ## Request
 
 Please review and summarize the attached Google Docs file, which contains my journal entries. The summary should:

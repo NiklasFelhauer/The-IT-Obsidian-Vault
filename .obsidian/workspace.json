@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Reference/Web/UI Inspiration.md",
+                "file": "03_Projects/Sprint-Current/temporary_sprint_retrospective.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UI Inspiration"
+              "title": "temporary_sprint_retrospective"
             }
           }
         ]
@@ -182,9 +182,15 @@
   },
   "active": "73aa884f65ea673a",
   "lastOpenFiles": [
+    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
+    "03_Projects/Sprint-Current/temporary_sprint_retrospective.md",
+    "03_Projects/Sprint-Current/temporary_task.md",
+    "02_Promts/Construction Kit/Retro Summary.md",
+    "02_Promts/Construction Kit/Sprint Summary.md",
+    "02_Promts/Dev.md",
+    "01_Reference/Web/FastAPI.md",
     "Index.md",
     "01_Reference/Web/CSS Tools.md",
-    "01_Reference/Web/FastAPI.md",
     "01_Reference/Web/UI Inspiration.md",
     "INSTALLATION.md",
     "README.md",
@@ -192,7 +198,6 @@
     "01_Reference/DevOps/Node Tools.md",
     "01_Reference/Python/Black.md",
     "01_Reference/Web/Angular.md",
-    "02_Promts/Dev.md",
     "01_Reference/DevOps/Docker.md",
     "01_Reference/DevOps/Celery.md",
     "01_Reference/DevOps/IntelliJ.md",
@@ -203,16 +208,11 @@
     "01_Reference/Python/Poetry.md",
     "01_Reference/Git/Git Commands.md",
     "01_Reference/DevOps/Textdokument (neu).txt",
-    "03_Projects/Sprint-Current/temporary_task.md",
     "conflict-files-obsidian-git.md",
     "LICENSE",
-    "04_Workflows/Workflow.md",
     "04_Workflows",
-    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
-    "03_Projects/Sprint-Current/temproary_test.md",
     "03_Projects/Sprint-Current",
     "03_Projects",
-    "02_Promts/Construction Kit/Writing Tests.md",
     "02_Promts/Construction Kit",
     "02_Promts",
     "01_Reference/Git",
