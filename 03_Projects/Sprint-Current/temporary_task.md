@@ -1,23 +1,40 @@
-# Task Description for ChatGPT
+# Task Brief: Data Structure Enhancement for UI Concept
 
-## Overview
+Hello,
 
-Hello ChatGPT,  
-Today marks a new beginning, and I'm reaching out with a task that has been persistently troubling me. I would greatly appreciate your assistance in resolving it.
+I'm currently working on a task that involves designing an appropriate data structure to support a specific user interface (UI) concept. Below, I outline the functional requirements and UI components involved, as well as the tools in use. Your task is to review the attached images and the existing data structure, and then propose improvements to ensure it effectively supports our UI and data interaction needs.
 
-## Problem Statement
+## UI Overview
 
-Whenever I add a new row to the data structure in my application, the canvas displaying the P&ID (Piping and Instrumentation Diagram) image automatically shifts its focus to the top-left corner of the image.
+Our interface includes a progress bar with three key stages, each corresponding to a specific review page:
 
-### Current Behavior:
-- Adding a new row causes the view to jump to the top-left corner of the P&ID canvas.
+### 1. Symbol Review Page
+- **Functionality**: Displays a list of recognized symbols.
+- **Interaction**: Clicking on a symbol (or its corresponding row) opens a detailed view.
+- **Details View**: Shows all textual elements currently associated with the selected symbol.
 
-### Expected Behavior:
-- The current view and focus area of the P&ID canvas should remain unchanged when a new row is added. In other words, the canvas should not scroll or move; it should preserve its current zoom and scroll position.
+### 2. Unassociated Text Review Page
+- **Functionality**: Lists all detected text elements that are not currently linked to any symbol.
+- **Interaction**: Users can review these text items, reassign them to existing symbols or lines, or manage them appropriately.
 
-## Request
+### 3. Connection Review Page
+- **Functionality**: Displays all detected connections or lines between elements.
+- **Interaction**: Selecting a connection allows users to view the texts currently associated with that line.
 
-Please review the code I have appended and help me resolve this issue. The goal is to maintain the canvas's visual state (i.e., position and zoom level) when new data rows are introduced.
+## Objective
 
-Thank you in advance for your support!
+You are provided with:
+- Images of the UI concept (appended separately).
+- The current version of the data structure.
 
+Your objective is to refine and enhance the existing data structure to align with the functional requirements described above. Please ensure the structure supports:
+- Efficient retrieval and visualization of data in **AG Grid**.
+- Easy linking between symbols, text items, and connections.
+- Scalable, maintainable relationships among data elements to support future enhancements.
+
+## Tools & Constraints
+
+- **Frontend Table Component**: AG Grid
+- **Goal**: Optimal user experience, responsiveness, and clarity in data presentation
+
+Thank you for your assistance!

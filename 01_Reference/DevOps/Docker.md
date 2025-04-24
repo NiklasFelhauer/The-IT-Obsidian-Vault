@@ -41,6 +41,16 @@ docker pull cr.siemens.com/ipid-recognition-product/components/ai-recognition-mo
 docker pull cr.siemens.com/ipid-recognition-product/components/ai-recognition-models/text-recognition
 ```
 
+1. All Together
+
+```shell
+docker pull cr.siemens.com/ipid-recognition-product/components/ai-recognition-models/network-generation:latest
+docker pull cr.siemens.com/ipid-recognition-product/components/ai-recognition-models/connection-recognition:latest
+docker pull cr.siemens.com/ipid-recognition-product/components/pid-api:latest
+docker pull cr.siemens.com/ipid-recognition-product/components/pid-bff:latest
+docker pull cr.siemens.com/ipid-recognition-product/components/ai-recognition-models/symbol-recognition:latest
+docker pull cr.siemens.com/ipid-recognition-product/components/ai-recognition-models/text-recognition
+```
 FOR UPDATING (pid-aip example)
 
 ```shell
