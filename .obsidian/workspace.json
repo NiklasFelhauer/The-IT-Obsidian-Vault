@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Secret/credentials.local.md",
+                "file": "01_Reference/Team/Mails.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "credentials.local"
+              "title": "Mails"
             }
           }
         ]
@@ -182,17 +182,18 @@
   },
   "active": "a083ecaca812041a",
   "lastOpenFiles": [
+    "03_Projects/Sprint-Current/temporary_refinement.md",
+    "03_Projects/Sprint-Current/temporary_task.md",
+    "02_Promts/Dev.md",
+    "00_Secret/credentials.local.md",
     "00_Secret/credentials.placeholder.md",
     "Index.md",
     "01_Reference/DevOps/Docker.md",
     "01_Reference/DevOps/Kubernetes.md",
-    "00_Secret/credentials.local.md",
-    "02_Promts/Dev.md",
     "01_Reference/Team/Mails.md",
     "02_Promts/Learning.md",
     "02_Promts/General.md",
     "01_Reference/Git/Git Commands.md",
-    "03_Projects/Sprint-Current/temporary_task.md",
     "01_Reference/Git/Git Commit Messages.md",
     "03_Projects/Sprint-Current/temproary_test.md",
     "03_Projects/Sprint-Current/temporary_sprint_summary.md",
@@ -208,7 +209,6 @@
     "02_Promts/Construction Kit/Sprint Summary.md",
     "01_Reference/Web/CSS Tools.md",
     "01_Reference/Web/UI Inspiration.md",
-    "INSTALLATION.md",
     "01_Reference/DevOps/Textdokument (neu).txt",
     "LICENSE",
     "04_Workflows",

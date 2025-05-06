@@ -1,43 +1,30 @@
-# Conversion Script Assistance Request
-
-## Overview
+# Request for Code Refactoring Assistance
 
 Hello ChatGPT,
 
-Today, I require your assistance with a critical task involving the implementation of a conversion script. The script is intended to transform a PID object into one of my Pydantic models, specifically the `SymbolTextPayload`, which is used on the frontend of my application.
+I've attached a `run.py` file containing several backend endpoints currently used in my application. One of these endpoints is already designed to return a Pydantic model via the `response_model` parameter, which I understand is a safer and more structured approach than returning plain `JSONResponse` objects. Please feel free to correct me if I'm mistaken.
 
-## Files Provided
+Here is an example of such an endpoint, located in the `# ConversionUtility` section:
 
-I have attached four files for your reference:
+```python
+@app.post(
+    "/convertPidToUi/{file_name}",
+    response_model=Union[SymbolTextPayload, ConnectionTextPayload],
+    tags=["Conversion Utility"],
+)
+async def convert_pid_to_ui(request: Request, file_name: str, payload_selection: PayloadSelectionEnum = Query(...)):
+    json_data = await process_request(
+        request, "POST", f"{url}/convertPidToUi/{file_name}?payload_selection={payload_selection.value}"
+    )
 
-1. **models.txt**  
-    This file contains all the Pydantic models used as data classes to facilitate the transfer of data to the frontend.
-    
-2. **pid_object.txt**  
-    This is a sample PID object. It represents the input that will be passed to the conversion script for processing into the corresponding Pydantic models.
-    
-3. **pid_to_ui_conversion.txt**  
-    This Python script is the core of the task. It is responsible for performing the actual conversion. This is where your implementation expertise is needed.
-    
-4. **pid_model.txt**  
-    This file outlines the structure of the PID data. It defines the format and organization of the PID object that will be converted.
-    
+    if payload_selection == PayloadSelectionEnum.symbol_text_payload:
+        return SymbolTextPayload(**json_data)
+    else:
+        return ConnectionTextPayload(**json_data)
+```
 
-## Context
+I would like your assistance in updating the remaining endpoints in the file to follow a similar structure. Specifically, please replace all instances of `JSONResponse` with appropriate `response_model` specifications using hypothetical Pydantic classes (you may create placeholder models for now; I will define the actual structures later).
 
-Both the PID model and the Pydantic models are properly imported into the conversion script, so all necessary components are available. Your task is to assist me in implementing a clean, effective, and maintainable conversion logic within the `pid_to_ui_conversion.txt` script.
+Your refactored suggestions should ensure that all endpoints are consistent, robust, and aligned with FastAPI best practices.
 
-## Expectations
-
-- The conversion logic should be robust, clear, and efficient.
-    
-- The final implementation should adhere to best practices in Python development.
-    
-- Please prioritize readability, maintainability, and performance.
-    
-
-I am looking forward to your guidance and collaboration on this important task. Thank you very much in advance for your support!
-
----
-
-If you need any additional information or clarification, feel free to ask!
+Thank you in advance for your help!
