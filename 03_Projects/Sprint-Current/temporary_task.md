@@ -1,30 +1,36 @@
-# Request for Code Refactoring Assistance
+# Request for Canvas Integration Advice in Angular Application
 
 Hello ChatGPT,
 
-I've attached a `run.py` file containing several backend endpoints currently used in my application. One of these endpoints is already designed to return a Pydantic model via the `response_model` parameter, which I understand is a safer and more structured approach than returning plain `JSONResponse` objects. Please feel free to correct me if I'm mistaken.
+I need your assistance with a critical and time-sensitive issue concerning an Angular application I'm currently developing. I’ve attached a file containing the relevant code for your review.
 
-Here is an example of such an endpoint, located in the `# ConversionUtility` section:
+### Context
 
-```python
-@app.post(
-    "/convertPidToUi/{file_name}",
-    response_model=Union[SymbolTextPayload, ConnectionTextPayload],
-    tags=["Conversion Utility"],
-)
-async def convert_pid_to_ui(request: Request, file_name: str, payload_selection: PayloadSelectionEnum = Query(...)):
-    json_data = await process_request(
-        request, "POST", f"{url}/convertPidToUi/{file_name}?payload_selection={payload_selection.value}"
-    )
+The application includes a **Canvas Page** featuring a split-screen layout:
 
-    if payload_selection == PayloadSelectionEnum.symbol_text_payload:
-        return SymbolTextPayload(**json_data)
-    else:
-        return ConnectionTextPayload(**json_data)
-```
+- **Left Panel:** A canvas that displays a P&ID (Piping and Instrumentation Diagram) image with overlaid bounding boxes.
+- **Right Panel:** An AG Grid table showing metadata for each detected item (e.g., symbols) overlaid on the image.
 
-I would like your assistance in updating the remaining endpoints in the file to follow a similar structure. Specifically, please replace all instances of `JSONResponse` with appropriate `response_model` specifications using hypothetical Pydantic classes (you may create placeholder models for now; I will define the actual structures later).
+### Background
 
-Your refactored suggestions should ensure that all endpoints are consistent, robust, and aligned with FastAPI best practices.
+The canvas implementation is outdated and highly rigid, limiting current functionality and future extensibility. We previously used Angular Material Table (MatTable), which introduced numerous limitations. We've since migrated to **AG Grid**, which offers improved flexibility and performance.
 
-Thank you in advance for your help!
+Now, the challenge is to **integrate AG Grid with a more modern and maintainable canvas solution** that supports the following:
+
+### Requirements
+
+1. Display static images (e.g., PNG, JPEG).
+2. Overlay bounding boxes based on metadata from AG Grid rows.
+3. Future capability to draw lines between items.
+4. Basic built-in interaction features:
+    - Panning
+    - Zooming
+    - Selection
+5. Ease of integration into an Angular application.
+6. Avoids the need to manually implement navigation buttons and interaction handling from scratch.
+
+### Request
+
+Can you recommend a modern canvas or graphics library that satisfies the above requirements and is well-suited for integration into an Angular project? Additionally, after reviewing the attached code, I’d appreciate guidance on how to replace the legacy canvas with the new solution.
+
+Thank you for your expert support.

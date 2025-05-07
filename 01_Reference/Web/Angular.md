@@ -6,6 +6,26 @@
     npm install -g @angular/cli
     ```
     
+## New Setup IPID
+1. Delete Old NG Modules
+    
+    ```shell
+ Remove-Item -Recurse -Force node_modules, package-lock.json
+    ```
+    
+2. Install Specific Typescript:
+    
+    ```shell
+	npm install typescript@5.5.0 --save-dev --legacy-peer-deps
+    ```
+    
+3. Install Dependencies
+    
+    ```shell
+    npm install --legacy-peer-deps
+    ```
+    
+
 
 ## Create a New Project
 
