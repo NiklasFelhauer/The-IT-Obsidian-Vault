@@ -3,6 +3,10 @@
    ```shell
    git rebase origin/main
    ```
+
+   ```shell
+   git pull origin main
+   ```
 ## Switch
 2. Switch to an existing branch:
    ```shell
