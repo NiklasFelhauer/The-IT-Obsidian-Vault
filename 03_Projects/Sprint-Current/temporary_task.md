@@ -4,23 +4,103 @@ I have appended a few files:
 
 **`pid_api_part1.txt`**  
 **`pid_schema.txt`**  
-**`pid-bff_part1.txt`**  
-**`symbols_texts_association.txt`**
+**`perfect_pidschema_example.txt`**
 
-Please have a look at the files and make sure you understand them.
+Please have a look at the files and make sure you understand them before continuing
 
 The Task:
 
-The task involves implementing the backend logic for key validator UI actions—**Save**, **Submit**, **Next**, and **Decision Handling**—to ensure correct communication between the UI and the backend, including state transitions and process triggering.
+The task involves implementing the backend logic for key validator UI actions—
 
+**Save**,  which includes is having to do the **Decision Handling** and **State Handling** in the apis... 
+
+** Important**
+
+My Api Connects to a storage where it saves and gets information / files from. 
+
+In this case there will be a symbol-text-association file which will be in the PIDSchema pydantic json class. 
+
+The input the update_and_save function will be  getting wall also be a PIDSchema  Class but only with elements which had changes done to them in the fronend - so not the exact same json...
+
+(sometimes some elements which had their symbol class changed and so the modified flag was chaged to modified - maybe even the decision key was set to accepted)
+
+(Or maybe only a decision was made and the element decision key was set to rejected) 
+
+In this first step lets have a look at the 
+
+**Decision Handling**
+
+As you can see in my PIDSchema and or the example file I uploaded, you can see that there is a Decision key in symbols lines and text array. (in the exmaple file only in the symobls and lines array). 
+
+These decisions can have three Values: 
+
+class ReviewDecision(str, Enum):
+
+    """Review outcome for the item."""
+
+
+    UNDECIDED = "undecided"
+
+    ACCEPTED = "accepted"
+
+    REJECTED = "rejected"
+
+These are set in the frontend and then the schema is passed back to the backend for processing.
+
+**How the System should react**
+
+The system / function should go to the elemnts id and overwrite that element with the element from the input so for example: 
+
+input: 
+
+    {
+      "id": "1160e4e3-4f46-4f88-9c98-f369902a7845",
+      "text": "PIC",
+      "bbox": {
+        "point1": [86, 271],
+        "point2": [115, 287]
+      },
+      "confidence": 91,
+      "rotation": 0,
+      "state": "recognized",
+      "decision": "accepted"
+    },
+    
+storage:
+    {
+      "id": "1160e4e3-4f46-4f88-9c98-f369902a7845",
+      "text": "PIC",
+      "bbox": {
+        "point1": [86, 271],
+        "point2": [115, 287]
+      },
+      "confidence": 91,
+      "rotation": 0,
+      "state": "recognized",
+      "decision": "undecided"
+    },
+    
+after overwrite:
+
+    {
+      "id": "1160e4e3-4f46-4f88-9c98-f369902a7845",
+      "text": "PIC",
+      "bbox": {
+        "point1": [86, 271],
+        "point2": [115, 287]
+      },
+      "confidence": 91,
+      "rotation": 0,
+      "state": "recognized",
+      "decision": "accepted"
+    },
+
+This should be the case for all the decision variants....so if that element is 
+
+Note: Flags will get updated based on the actions - Accept, reject, undecided.
 When the **Save** action is triggered, all changed elements must be sent to the backend. During this process, the element’s `state` should be correctly set or retained as either `new`, `recognized`, or `modified`. Additionally, the backend should update the element data and re-evaluate associations, such as symbol-to-text links.
 
-The **Submit** action also sends all changed elements to the backend but differs from Save by triggering additional backend processes—specifically 
-, Save, **network generation** and **line detection**. The current `state` and `decision` values of the elements must remain unchanged during submission.
 
-The **Next** button drives the navigation through the validation steps in the following order: _Symbol → Unassociated Text → (once) Connection Review → Line Detection_. Once the Connection Review is reached, **line detection** should be triggered a single time as part of this flow.
-
-For **Decision Handling**, three user actions must be supported. Selecting **Accept** sets the element’s `decision` to `accepted`, while **Reject** sets it to `rejected`. If a user chooses to **Revert Reject**, the `decision` should be reset to `undecided`, and the system should re-check possible associations to update links and statuses as needed.
 
 Each action must ensure that the appropriate payload is sent, the element’s `state` and `decision` are preserved or updated correctly, and the backend behavior adapts to the current validation context.
 
