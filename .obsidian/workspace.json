@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f6fcc502c7c4db35",
+        "id": "939a38c3f7479849",
         "type": "tabs",
         "children": [
           {
@@ -183,6 +183,7 @@
   },
   "active": "b7b68c6546bc5a0c",
   "lastOpenFiles": [
+    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
     "02_Promts/Construction Kit/Sprint Summary.md",
     "03_Projects/Sprint-Current/temporary_sprint_retrospective.md",
     "01_Reference/Git/Git Commands.md",
@@ -206,7 +207,6 @@
     "03_Projects/Sprint-Current/temproary_test.md",
     "02_Promts/Construction Kit/Retro Summary.md",
     "02_Promts/Construction Kit/Writing Tests.md",
-    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
     "03_Projects/Sprint-Current/temporary_refinement.md",
     "01_Reference/Team/Mails.md",
     "01_Reference/Python/Poetry.md",
