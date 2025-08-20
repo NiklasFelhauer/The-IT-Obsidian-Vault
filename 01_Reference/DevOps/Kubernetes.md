@@ -4,40 +4,50 @@
    kubectl get pods -n default
    ```
 
-2. Get persistent volume claim status:
+2. Get Deployments
+   ```shell
+   kubectl get deployments -n default
+   ```
+
+3. Get persistent volume claim status:
    ```shell
    kubectl get pvc
    ```
 
-3. Get all services:
+4. Get all services:
    ```shell
    kubectl get services
    ```
 
-4. Get deployments in a namespace:
+5. Get deployments in a namespace:
    ```shell
    kubectl get deployments -n <namespace>
    ```
 
-5. Get nodes in the cluster:
+6. Get nodes in the cluster:
    ```shell
    kubectl get nodes
    ```
 
-6. Get details of a specific resource:
+7. Get details of a specific resource:
    ```shell
    kubectl describe <resourceType> <resourceName>
+   ```
+
+8. Get all namespaces in a cluster
+   ```shell
+   kubectl get ns
    ```
 
 ## Execute
 1. Look inside a Kubernetes pod (open a shell):
    ```shell
-   kubectl exec -it <pod-name> -- /bin/bash
+   kubectl exec -it -n ipid <pod-name> -- /bin/bash
    ```
 
 2. Run a single command in a pod:
    ```shell
-   kubectl exec <pod-name> -- <command>
+   kubectl exec <pod-name> -- <command> -n default
    ```
 ## Debug
 1. Describe a problem in a pod:
@@ -47,7 +57,7 @@
 
 2. View logs of a specific pod:
    ```shell
-   kubectl logs <pod-name>
+   kubectl logs <pod-name> -n default
    ```
 
 3. Follow live logs of a pod:
@@ -90,7 +100,7 @@
    ## Delete
 1. Delete a pod:
    ```shell
-   kubectl delete pod <pod-name>
+   kubectl delete pod <pod-name> -n default
    ```
 
 2. Delete a namespace:
@@ -103,6 +113,10 @@
    kubectl delete -f <file.yaml>
    ```
 
+4. Delete the entire deployment
+   ```shell
+   kubectl delete deployment -n default
+   ```
 ## Miscellaneous
 1. Scale a deployment:
    ```shell
