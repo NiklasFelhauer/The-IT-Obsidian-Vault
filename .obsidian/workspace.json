@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c431cad31c727993",
+        "id": "aba0a43476b5be02",
         "type": "tabs",
         "children": [
           {
-            "id": "30f15f4a25ddda93",
+            "id": "2b6bab6fe0a8ffa5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_Projects/Sprint-Current/temporary_task.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "temporary_task"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "2d4cfb9044fd62d7",
@@ -167,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,20 +176,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30f15f4a25ddda93",
+  "active": "2b6bab6fe0a8ffa5",
   "lastOpenFiles": [
+    "01_Reference/Git/Git Commands.md",
+    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
     "02_Promts/Dev.md",
+    "02_Promts/Learning.md",
+    "01_Reference/DevOps/Kubernetes.md",
+    "01_Reference/Python/Isort.md",
+    "Index.md",
+    "00_Secret/credentials.local.md",
+    "01_Reference/DevOps/Docker.md",
+    "README.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Untitled 4.base",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
     "03_Projects/Sprint-Current/temporary_task.md",
     "03_Projects/Sprint-Current/temproary_test.md",
-    "03_Projects/Sprint-Current/temporary_sprint_summary.md",
     "02_Promts/Construction Kit/Sprint Summary.md",
     "01_Reference/Configuration/IDE.md",
-    "Index.md",
-    "01_Reference/DevOps/Kubernetes.md",
     "01_Reference/Configuration",
-    "01_Reference/Git/Git Commands.md",
-    "01_Reference/DevOps/Docker.md",
-    "00_Secret/credentials.local.md",
     "01_Reference/Python/Poetry.md",
     "01_Reference/Git/Git Commit Messages.md",
     "03_Projects/Sprint-Current/temporary_sprint_retrospective.md",
@@ -204,25 +207,16 @@
     "01_Reference/Web/Angular.md",
     "01_Reference/Web/UI Inspiration.md",
     "00_Secret/credentials.placeholder.md",
-    "02_Promts/Learning.md",
     "02_Promts/General.md",
     "INSTALLATION.md",
-    "README.md",
     "02_Promts/NiceOnes/Nice Ones.md",
     "02_Promts/NiceOnes",
     "02_Promts/Construction Kit/Retro Summary.md",
     "02_Promts/Construction Kit/Writing Tests.md",
     "03_Projects/Sprint-Current/temporary_refinement.md",
-    "01_Reference/Team/Mails.md",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "01_Reference/Team",
     "01_Reference/DevOps/Textdokument (neu).txt",
-    "LICENSE",
-    "04_Workflows",
-    "03_Projects/Sprint-Current",
-    "03_Projects",
-    "02_Promts/Construction Kit",
-    "02_Promts"
+    "LICENSE"
   ]
 }
