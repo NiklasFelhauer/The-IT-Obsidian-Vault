@@ -26,10 +26,10 @@ for (let group of pages) {
 
 ---
 
-## 🧠 02_Promts – Prompt Templates
+## 🧠 02_Prompts – Prompt Templates
 
 ```dataviewjs
-const pages = dv.pages('"02_Promts"')
+const pages = dv.pages('"02_Prompts"')
 	.groupBy(p => {
 	    const folder = p.file.folder;
 	    return folder === "02_Promts" ? "" 
