@@ -67,6 +67,11 @@ docker compose build --build-arg POETRY_HTTP_BASIC_IPID_RECOGNITION_USERNAME=<> 
 ```shell
 docker compose up
 ```
+
+4. Execute Docker Compose Pull
+```shell
+docker compose pull
+```
 ## Debug
 
 4.  Get all Processes

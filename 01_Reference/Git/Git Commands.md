@@ -1,4 +1,4 @@
-dock
+
 ## Update
 1. Update a Branch from Main:
    ```shell
@@ -8,6 +8,16 @@ dock
    ```shell
    git pull origin main
    ```
+## Create
+1. Create and switch to the new branch in one step:
+   ```shell
+	git checkout -b my-new-branch
+   ```
+2. Push the new branch to remote (e.g., GitHub, GitLab):
+   ```shell
+   git push -u origin my-new-branch
+   ```
+   
 ## Switch
 2. Switch to an existing branch:
    ```shell
