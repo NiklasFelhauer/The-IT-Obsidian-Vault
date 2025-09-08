@@ -63,4 +63,4 @@ Moritz Staudacher
 
 ---
 
-> _“Well-organized knowledge is power.”_
+> _“During work, I'm often dropping a deuce”_
