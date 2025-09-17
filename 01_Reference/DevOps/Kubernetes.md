@@ -117,6 +117,11 @@
    ```shell
    kubectl delete deployment -n default
    ```
+   
+5. Delete all pods
+   ```shell
+   kubectl delete pods --all -n ipid
+   ```
 ## Miscellaneous
 1. Scale a deployment:
    ```shell

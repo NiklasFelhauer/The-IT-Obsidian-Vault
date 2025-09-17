@@ -7,7 +7,22 @@ Please convert this phrase into an underscore-separated format: "partofword_part
    ```
 
    ```text
-Please Summarize this diff file in order for me to create a nice description for my Colleagues. This will be used for my merge description. Please put it in the bash as md so I can copy it
+Please summarize this `.diff` file for use as a merge request description.
+
+Audience: developers/colleagues.
+
+Format: markdown (for Git merge/PR description).
+
+Please structure the summary as follows:
+1. High-level summary paragraph.
+2. Sections:
+   - ✅ Added
+   - ♻️ Refactored
+   - 🧹 Cleanups
+3. 📁 Changed Files Overview: as a markdown table with filename, additions, and deletions.
+4. End with a sentence about the goal or future context of the changes.
+
+Keep it concise, professional, and ready to paste into a Git merge description.
    ```
    
   ```text
