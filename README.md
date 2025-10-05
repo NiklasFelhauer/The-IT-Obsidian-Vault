@@ -63,4 +63,4 @@ Moritz Staudacher
 
 ---
 
-> _“Well-organized knowledge is power.”_
+> _“Well-organized knowledge is turbogeil.”_
